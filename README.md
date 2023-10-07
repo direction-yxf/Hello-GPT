@@ -9,9 +9,10 @@
 前沿展望阐述大模型的架构和训练机制的改进方向，以及大模型的应用落地中的思考。
 ***
 
+<p align="center">
+<img src="项目附件/图/图1章节结构.png" width="600" />
+</p>
 
-![image](项目附件/图/图1章节结构.png "图1 章节结构")  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;图1 章节结构
 
 **todo list**：  
 1、0901-1001，完成章节基本框架搭建和初稿  
