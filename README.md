@@ -10,7 +10,7 @@
 ***
 
 
-![image](项目附件\\图\\图1章节结构.png "图1 章节结构")  
+![image](项目附件/图/图1章节结构.png "图1 章节结构")  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;图1 章节结构
 
 **todo list**：  
