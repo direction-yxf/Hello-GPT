@@ -9,12 +9,12 @@
 -预训练阶段数据优化：找到最优的混合比例+数据格式+数据课程=》使学习速度最大化
 -指令微调阶段调整数据优化：寻找最少的query-resonse pairs（最少的训练数据）=》使用户偏好分布的覆盖范围最大。  
 
-**Part 1 Pretraining**  
-*（1）预训练能力评估指标：speed of grokking（获取某技能的速度）*  
+***Part 1 Pretraining***  
+**（1）预训练能力评估指标：speed of grokking（获取某技能的速度）**  
 &emsp;&emsp;在训练开始时，模型记忆了训练数据，但测试精度比较低并且没有变化。随着训练的进行有一个相变期，模型突然从记忆过渡到泛化，在测试集上显示出高
 的准确率，学习过程的这种阶段性变化成为”grokking“。通常预训练模型评估指标：下一个单词预测损失，但是loss函数并不能反映其在具体下游任务上的性能表现，而
 speed of grokking模型获得特定技能的速度是一个不错的选择替代指标。  
-*（2）数据因素对speed of grokking的影响*  
+**（2）数据因素对speed of grokking的影响**  
 &emsp;&emsp;分析mix ratio（数据混合比例）+ data format（数据格式） + data curriculum（数据教程）+数据规模对speed of grokking的影响。  
 --Format of data(训练数据格式)对模型的影响。数据说明：plain(没有任何COT中间结果)、reverse（倒过来）、simplified scratchpad（提供部分中间COT
 推理结果作为训练数据）、detailed scratchpad（提供详细的COT推理结果作为训练数据）；结论、利用越详细的COT中间结果来训练模型，模型学习的速度越快。  
